@@ -1,0 +1,51 @@
+{
+  "id": "project_1",
+  "name": "New Project",
+  "kind": "Project",
+  "properties": {},
+  "elements": [
+    {
+      "id": "app1",
+      "name": "New App",
+      "kind": "App",
+      "properties": {},
+      "elements": [
+        {
+          "id": "page_1",
+          "name": "Main Page",
+          "kind": "Page",
+          "properties": {},
+          "elements": [
+            {
+              "id": "text_1",
+              "name": "Title",
+              "kind": "Text",
+              "properties": {
+                "content": "The New App",
+                "fontSize": 24
+              }
+            },
+            {
+              "id": "textinput_1",
+              "name": "Your name",
+              "kind": "TextInput",
+              "properties": {},
+              "elements": []
+            },
+            {
+              "id": "image_1",
+              "name": "Beetle pic",
+              "kind": "Image",
+              "properties": {
+                "source": "Tansy_Beetle.jpg",
+                "width": 200,
+                "height": 200
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
