@@ -33,6 +33,17 @@
               "elements": []
             },
             {
+              "id": "text_3",
+              "name": "Hello Text",
+              "kind": "Text",
+              "properties": {
+                "content": {
+                  "expr": "ServerApp1.SayHello(Yourname)"
+                }
+              },
+              "elements": []
+            },
+            {
               "id": "image_1",
               "name": "Beetle pic",
               "kind": "Image",
@@ -42,8 +53,62 @@
                 "height": 200
               },
               "elements": []
+            },
+            {
+              "id": "text_2",
+              "name": "AddTen text",
+              "kind": "Text",
+              "properties": {
+                "content": {
+                  "expr": "\"Twenty plus 10 is \" + ServerApp1.AddTen(20)"
+                }
+              },
+              "elements": []
             }
           ]
+        },
+        {
+          "id": "serverappconnector_1",
+          "name": "Server App 1",
+          "kind": "ServerAppConnector",
+          "properties": {
+            "serverApp": {
+              "expr": "ServerApp1"
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "serverapp_1",
+      "name": "Server App 1",
+      "kind": "ServerApp",
+      "properties": {},
+      "elements": [
+        {
+          "id": "function_1",
+          "name": "AddTen",
+          "kind": "Function",
+          "properties": {
+            "input1": "abc",
+            "calculation": {
+              "expr": "abc  + 10"
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "function_2",
+          "name": "SayHello",
+          "kind": "Function",
+          "properties": {
+            "input1": "name",
+            "calculation": {
+              "expr": "\"Hello there - Dr \" + name"
+            }
+          },
+          "elements": []
         }
       ]
     }
