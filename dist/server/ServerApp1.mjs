@@ -4,8 +4,8 @@ const ServerApp1 = (user) => {
 
 function CurrentUser() { return runtimeFunctions.asCurrentUser(user) }
 
-async function AddTen(abc) {
-    return abc  + 10
+async function AddTwenty(abc) {
+    return abc  + 20
 }
 
 async function SayHello(name) {
@@ -13,7 +13,7 @@ async function SayHello(name) {
 }
 
 return {
-    AddTen: {func: AddTen, update: false, argNames: ['abc']},
+    AddTwenty: {func: AddTen, update: false, argNames: ['abc']},
     SayHello: {func: SayHello, update: false, argNames: ['name']}
 }
 }
