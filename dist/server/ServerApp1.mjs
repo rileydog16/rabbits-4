@@ -13,7 +13,7 @@ async function SayHello(name) {
 }
 
 return {
-    AddTwenty: {func: AddTen, update: false, argNames: ['abc']},
+    AddTwenty: {func: AddTwenty, update: false, argNames: ['abc']},
     SayHello: {func: SayHello, update: false, argNames: ['name']}
 }
 }
