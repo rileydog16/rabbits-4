@@ -10,7 +10,7 @@ function MainPage(props) {
     const Yourname = Elemento.useObjectState(pathWith('Yourname'), new TextInput.State({}))
 
     return React.createElement(Page, {id: props.path},
-        React.createElement(TextElement, {path: pathWith('Title'), fontSize: 24}, 'The New App'),
+        React.createElement(TextElement, {path: pathWith('Title'), fontSize: 24}, 'The New New App'),
         React.createElement(TextInput, {path: pathWith('Yourname'), label: 'Your name'}),
         React.createElement(TextElement, {path: pathWith('HelloText')}, ServerApp1.SayHello(Yourname)),
         React.createElement(Image, {path: pathWith('Beetlepic'), source: 'Tansy_Beetle.jpg', width: 200, height: 200}),
