@@ -60,7 +60,7 @@
               "kind": "Text",
               "properties": {
                 "content": {
-                  "expr": "\"Twenty plus 10 is \" + ServerApp1.AddTen(20)"
+                  "expr": "\"Twenty plus ten is \" + ServerApp1.AddTen(20)"
                 }
               },
               "elements": []
@@ -111,6 +111,12 @@
           "elements": []
         }
       ]
+    },
+    {
+      "id": "_TOOLS",
+      "name": "Tools",
+      "kind": "ToolFolder",
+      "properties": {}
     }
   ]
 }
