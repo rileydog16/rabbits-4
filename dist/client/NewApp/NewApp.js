@@ -1,4 +1,4 @@
-const runtimeUrl = `${window.location.origin}/lib/runtime.js`
+const runtimeUrl = window.elementoRuntimeUrl || 'https://elemento.online/lib/runtime.js'
 const Elemento = await import(runtimeUrl)
 const {React} = Elemento
 
