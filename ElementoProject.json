@@ -64,6 +64,17 @@
                 }
               },
               "elements": []
+            },
+            {
+              "id": "text_5",
+              "name": "AddTen alone",
+              "kind": "Text",
+              "properties": {
+                "content": {
+                  "expr": "ServerApp1.AddTen(20)"
+                }
+              },
+              "elements": []
             }
           ]
         },
@@ -93,7 +104,7 @@
           "properties": {
             "input1": "abc",
             "calculation": {
-              "expr": "abc  + 10"
+              "expr": "abc  + 17\n"
             }
           },
           "elements": []
@@ -105,7 +116,7 @@
           "properties": {
             "input1": "name",
             "calculation": {
-              "expr": "\"Hello there - Dr \" + name"
+              "expr": "\"Hi there - Ms \" + name"
             }
           },
           "elements": []
@@ -116,7 +127,34 @@
       "id": "_TOOLS",
       "name": "Tools",
       "kind": "ToolFolder",
-      "properties": {}
+      "properties": {},
+      "elements": [
+        {
+          "id": "tool_1",
+          "name": "Whizzy Tool",
+          "kind": "Tool",
+          "properties": {},
+          "elements": [
+            {
+              "id": "page_2",
+              "name": "Page 2",
+              "kind": "Page",
+              "properties": {},
+              "elements": [
+                {
+                  "id": "text_4",
+                  "name": "Text 4",
+                  "kind": "Text",
+                  "properties": {
+                    "content": "This is whizzy!"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

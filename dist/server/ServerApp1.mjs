@@ -1,15 +1,16 @@
-import {runtimeFunctions} from './serverRuntime.cjs'
+import * as serverRuntime from './serverRuntime.cjs'
+const {runtimeFunctions} = serverRuntime
 
 const ServerApp1 = (user) => {
 
 function CurrentUser() { return runtimeFunctions.asCurrentUser(user) }
 
 async function AddTen(abc) {
-    return abc  + 10
+    return abc  + 17
 }
 
 async function SayHello(name) {
-    return "Hello there - Dr " + name
+    return "Hi there - Ms " + name
 }
 
 return {

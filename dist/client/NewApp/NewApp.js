@@ -15,6 +15,7 @@ function MainPage(props) {
         React.createElement(TextElement, {path: pathWith('HelloText')}, ServerApp1.SayHello(Yourname)),
         React.createElement(Image, {path: pathWith('Beetlepic'), source: 'Tansy_Beetle.jpg', width: 200, height: 200}),
         React.createElement(TextElement, {path: pathWith('AddTentext')}, "Twenty plus ten is " + ServerApp1.AddTen(20)),
+        React.createElement(TextElement, {path: pathWith('AddTenalone')}, ServerApp1.AddTen(20)),
     )
 }
 
