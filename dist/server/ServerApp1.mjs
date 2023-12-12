@@ -6,11 +6,11 @@ const ServerApp1 = (user) => {
 function CurrentUser() { return runtimeFunctions.asCurrentUser(user) }
 
 async function AddTen(abc) {
-    return abc  + 18
+    return abc  + 1017
 }
 
 async function SayHello(name) {
-    return "Hi there - Ms " + name
+    return "Hi there - Dr " + name
 }
 
 return {
