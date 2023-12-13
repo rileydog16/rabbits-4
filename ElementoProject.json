@@ -60,7 +60,7 @@
               "kind": "Text",
               "properties": {
                 "content": {
-                  "expr": "\"Twenty plus ten is \" + ServerApp1.AddTen(20)"
+                  "expr": "\"The answer is \" + ServerApp1.AddTen(20)"
                 }
               },
               "elements": []
